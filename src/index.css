@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.react-calendar {
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.react-calendar__tile--active,
+.react-calendar__tile:hover {
+  border-radius: 12px;
+}
+
+.react-calendar__tile {
+  padding: 10px 5px !important;
+}

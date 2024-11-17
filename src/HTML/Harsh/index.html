@@ -1,196 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudha Hospital</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+
+<body class="bg-[#0064E6] text-white">
+    <!-- Header Section -->
     <header>
-        <nav class="nav">
+        <nav class="flex justify-between items-center py-5 px-10">
             <div class="logo">
-                <img src="Assets/Logo.png" alt="Sudha Hospital Logo">
+                <img src="Assets/Logo.png" alt="Sudha Hospital Logo" class="w-40">
             </div>
-            <div class="menu">
-                <a href="#">Home</a> 
-                <a href="#">About Us</a> 
-                <a href="#">Doctors</a> 
-                <a href="#">Blog</a> 
-                <a href="#" class="appointment-btn">Book an appointment</a>
+            <div class="flex items-center bg-blue-600 py-2 px-4 rounded-full shadow-lg">
+                <a href="#" class="text-white mx-4 text-sm font-bold">Home</a>
+                <a href="#" class="text-white mx-4 text-sm font-bold">About Us</a>
+                <a href="#" class="text-white mx-4 text-sm font-bold">Doctors</a>
+                <a href="#" class="text-white mx-4 text-sm font-bold">Blog</a>
+                <a href="#" class="bg-white text-blue-600 py-2 px-6 rounded-full text-sm font-bold">Book an appointment</a>
             </div>
         </nav>
-        <section class="header-content">
-            <div class="header-text">
-                <h1>
-                    Healthcare Made Simple<br>
-                    - Book with Ease
-                </h1>
-                <div class="contact-card">
-                    <div class="availability">
-                        <div class="hours"><p>24/7</p></div>
-                        
+
+        <section class="flex flex-wrap justify-between items-center py-10 px-10">
+            <div>
+                <h1 class="text-4xl font-bold leading-tight mb-5">Healthcare Made Simple<br> Book with Ease</h1>
+                <div class="bg-white text-black p-5 rounded-lg shadow-md max-w-xs mb-5">
+                    <div class="flex items-center font-bold mb-2">
+                        <div class="bg-blue-600 text-white px-2 py-1 rounded-full mr-3">24/7</div>
                         <p>Always here for you!</p>
-                    </div><br>
-                    <h4>Address:</h4>
-                    <p class="address">
-                        Opp Megraj Hotel, M G Road,<br>
-                        Ghatkopar, Mumbai, Maharashtra - 400077
-                    </p>
+                    </div>
+                    <h4 class="text-lg font-semibold">Address:</h4>
+                    <p class="text-sm mt-2">Opp Megraj Hotel, M G Road,<br>Ghatkopar, Mumbai, Maharashtra - 400077</p>
                 </div>
-                <div class="contact-phone">
-                    <p class="phone">
-                    <img src="Assets/Emergency Ico.png" alt=""> 2233664455 | 1333664455
-                    </p>
+                <div class="bg-white p-3 rounded-full place-content-center inline-block">
+                    <img src="Assets/Emergency Ico.png" alt="Phone Icon" class="inline mr-2">
                 </div>
-                    
+                <div class="bg-white text-blue-600 p-3 rounded-lg shadow-md inline-block">
+                    <p class="text-sm font-bold">2233664455 | 1333664455</p>
+                </div>            
+                
             </div>
-            <div class="header-image">
-                <img src="Assets/illustration.png" alt="Healthcare Illustration">
+            <div>
+                <img src="Assets/illustration.png" alt="Healthcare Illustration" class="w-[50rem] h-auto">
             </div>
         </section>
     </header>
 
-    <!-- New Section: Find Your Specialist -->
-    <section class="specialist-section">
-        <h2>Find Your <span>Specialist</span></h2>
-        <p class="subtitle">Choose from a range of experts across multiple specialties to get the precise care you need</p>
-        
-        <div class="specialist-cards">
+    <!-- Specialist Section -->
+    <section class="bg-white text-black py-10 px-10">
+        <h2 class="text-3xl font-bold mb-2">Find Your <span class="text-blue-600">Specialist</span></h2>
+        <p class="text-gray-600 mb-10">Choose from a range of experts across multiple specialties to get the precise care you need</p>
+        <div class="flex justify-center gap-10">
             <!-- Neurology Card -->
-            <div class="card">
-                <h3>Neurology</h3>
-                <p>35 Doctors Available</p>
-                <img src="Assets/Arrow.png" alt="">
-                <img src="Assets/brain icon.png" alt="Neurology Icon">
+            <div class="bg-blue-100 p-6 rounded-lg shadow-md w-64">
+                <h3 class="text-lg font-bold mb-2">Neurology</h3>
+                <p class="text-gray-600 mb-4">35 Doctors Available</p>
+                <img src="Assets/brain icon.png" alt="Neurology Icon" class="w-20 mx-auto">
+                <img src="Assets/Arrow.png" alt="" class="">
             </div>
-            
             <!-- Genetics Card -->
-            <div class="card">
-                <h3>Genetics</h3>
-                <p>50 Doctors Available</p>
-                <img src="Assets/Arrow.png" alt="">
-                <img src="Assets/dna icon.png" alt="Genetics Icon">
+            <div class="bg-blue-100 p-6 rounded-lg shadow-md w-64">
+                <h3 class="text-lg font-bold mb-2">Genetics</h3>
+                <p class="text-gray-600 mb-4">50 Doctors Available</p>
+                <img src="Assets/dna icon.png" alt="Genetics Icon" class="w-20 mx-auto">
+                <img src="Assets/Arrow.png" alt="" class="">
             </div>
-            
             <!-- Dentistry Card -->
-            <div class="card">
-                <h3>Dentistry</h3>
-                <p>24 Doctors Available</p>
-                <img src="Assets/Arrow.png" alt="">
-                <img src="Assets/dentist.png" alt="Dentistry Icon">
+            <div class="bg-blue-100 p-6 rounded-lg shadow-md w-64">
+                <h3 class="text-lg font-bold mb-2">Dentistry</h3>
+                <p class="text-gray-600 mb-4">24 Doctors Available</p>
+                <img src="Assets/dentist.png" alt="Dentistry Icon" class="w-20 mx-auto">
+                <img src="Assets/Arrow.png" alt="" class="">
             </div>
         </div>
     </section>
 
-    <!-- New Section: Find Your Doctors -->
-
-    <section class="Doctors">
-        <h2>Find Your <span class="highlight">Doctor</span></h2>
-        <p class="subtitle">Browse our team of trusted, highly skilled doctors dedicated to providing personalized and compassionate care</p>
-        <br>
-        <div class="search-bar">
-            <input type="text" placeholder="Search for doctors">
-            <button>Search</button>
+    <!-- Doctors Section -->
+    <section class="bg-white text-black py-10 px-10">
+        <h2 class="text-3xl font-bold mb-2">Find Your <span class="text-blue-600">Doctor</span></h2>
+        <p class="text-gray-600 mb-10">Browse our team of trusted, highly skilled doctors dedicated to providing personalized and compassionate care</p>
+        <div class="flex justify-end mb-6">
+            <div class="flex items-center border rounded-full overflow-hidden">
+                <input type="text" placeholder="Search for doctors" class="py-2 px-4 w-72 outline-none">
+                <button class="bg-blue-600 text-white py-2 px-4">Search</button>
+            </div>
         </div>
-        
-        <div class="doctor-cards">
-            <div class="card1">
-                <img src="Assets/image (1).png" alt="Doctor Image">
-                <h4>Dr. Isabella K</h4>
-                <p>Immunologist</p>
-                <div class="rating">
-                    <span>⭐ 4.9</span>
-                    <span>(149 reviews)</span>
-                </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <!-- Doctor Card -->
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image.png" alt="Doctor Image">
-                <h4>Dr. Harper W</h4>
-                <p>Vaccinologist</p>
-                <div class="rating">
-                    <span>⭐ 4.4</span>
-                    <span>(139 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image3.png" alt="Doctor Image">
-                <h4>Dr. Felix X</h4>
-                <p>Epidemiologist</p>
-                <div class="rating">
-                    <span>⭐ 4.7</span>
-                    <span>(145 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image (1).png" alt="Doctor Image">
-                <h4>Dr. Marcus L</h4>
-                <p>Epidemiologist</p>
-                <div class="rating">
-                    <span>⭐ 4.3</span>
-                    <span>(121 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image.png" alt="Doctor Image">
-                <h4>Dr. Sophia M</h4>
-                <p>Virologist</p>
-                <div class="rating">
-                    <span>⭐ 4.6</span>
-                    <span>(128 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
         </div>
         <br>
         <br>
-        <div class="doctor-cards">
-            <div class="card1">
-                <img src="Assets/image (1).png" alt="Doctor Image">
-                <h4>Dr. Isabella K</h4>
-                <p>Immunologist</p>
-                <div class="rating">
-                    <span>⭐ 4.9</span>
-                    <span>(149 reviews)</span>
-                </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            <!-- Doctor Card -->
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image.png" alt="Doctor Image">
-                <h4>Dr. Harper W</h4>
-                <p>Vaccinologist</p>
-                <div class="rating">
-                    <span>⭐ 4.4</span>
-                    <span>(139 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image3.png" alt="Doctor Image">
-                <h4>Dr. Felix X</h4>
-                <p>Epidemiologist</p>
-                <div class="rating">
-                    <span>⭐ 4.7</span>
-                    <span>(145 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image (1).png" alt="Doctor Image">
-                <h4>Dr. Marcus L</h4>
-                <p>Epidemiologist</p>
-                <div class="rating">
-                    <span>⭐ 4.3</span>
-                    <span>(121 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
-            <div class="card1">
-                <img src="Assets/image.png" alt="Doctor Image">
-                <h4>Dr. Sophia M</h4>
-                <p>Virologist</p>
-                <div class="rating">
-                    <span>⭐ 4.6</span>
-                    <span>(128 reviews)</span>
-                </div>
+            <div class="bg-white border-2 border-blue-600 p-4 rounded-lg shadow-md text-center">
+                <img src="Assets/image (1).png" alt="Doctor Image" class="w-20 h-20 rounded-full mx-auto mb-4">
+                <h4 class="text-lg font-bold mb-1">Dr. Isabella K</h4>
+                <p class="text-sm text-gray-600 mb-2">Immunologist</p>
+                <div class="text-yellow-500 text-sm font-bold">⭐ 4.9 <span class="text-gray-500">(149 reviews)</span></div>
             </div>
         </div>
     </section>
-    
 </body>
+
 </html>

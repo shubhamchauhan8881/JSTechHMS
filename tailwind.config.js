@@ -6,12 +6,16 @@ export default {
   ],
   theme: {
     extend: {
+      colors:{
+        "myblue":"#0064E6"
+      },
       fontFamily: {
         "poppins":["Poppins", "sans-serif"],
         "afacad": ["Afacad", "sans-serif"],
         "inter": ["Inter", "sans-serif"]
       }
     },
+    
   },
   plugins: [],
 }

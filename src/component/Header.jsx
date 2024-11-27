@@ -12,7 +12,7 @@ export default function Header({variant}) {
         <a href="#" className="hover:text-blue-600">About Us</a>
         <a href="#" className="hover:text-blue-600">Doctors</a>
         <a href="#" className="hover:text-blue-600">Blog</a>
-        <button className= {variant==="white"?"text-blue-600 bg-white px-4 py-2 rounded-full":"bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700"}>Book an appointment</button>
+        <button className= {variant==="white"? "text-blue-600 bg-white px-4 py-2 rounded-full":"bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700"}>Book an appointment</button>
       </nav>
    
     </header>

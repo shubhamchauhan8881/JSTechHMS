@@ -1,6 +1,30 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;  
+
+@layer base{
+  body{
+    @apply bg-black;
+  }
+
+  *{
+    @apply font-afacad;
+  }
+}
+
+#root{
+  border-radius: 1.5rem;
+  padding: 10px;
+  background-color: white;
+  /* overflow: hidden; */
+}
+
+.hero{
+  background: url(./bg-dna.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 .react-calendar {
   border-radius: 12px;
@@ -21,11 +45,9 @@
   content: "";
   position: absolute;
   top: -50px;
-  left: 47px;
-  /* background-color: blue; */
+  left: 20px;
   height: 50px;
   width: 50px;
   border-radius: 30%;
-  /* transform: rotate(48deg); */
   box-shadow: 10px 10px 0 0 #ddd;
 }

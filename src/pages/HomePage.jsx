@@ -1,3 +1,4 @@
+import BlogPosts from "../component/Blog/BlogPost";
 import C from "../component/C";
 import Header from "../component/Header";
 
@@ -110,6 +111,9 @@ export default function HomePage() {
                 </div>
              
             </div>
+        </div>
+        <div>
+            <BlogPosts/>
         </div>
     </section>
   )

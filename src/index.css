@@ -1,53 +1,129 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;  
+@tailwind utilities;
 
-@layer base{
-  body{
-    @apply bg-black;
-  }
+@layer base {
+	body {
+		@apply bg-black;
+	}
 
-  *{
-    @apply font-afacad;
-  }
+	* {
+		@apply font-afacad;
+	}
 }
 
-#root{
-  border-radius: 1.5rem;
-  padding: 10px;
-  background-color: white;
-  /* overflow: hidden; */
+#root {
+	border-radius: 1.5rem;
+	padding: 10px;
+	background-color: white;
+	/* overflow: hidden; */
 }
 
-.hero{
-  background: url(./bg-dna.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+.hero {
+	background: url(./bg-dna.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
 }
 
 .react-calendar {
-  border-radius: 12px;
-  padding: 8px;
+	border-radius: 12px;
+	padding: 8px;
 }
 
 .react-calendar__tile--active,
 .react-calendar__tile:hover {
-  border-radius: 12px;
+	border-radius: 12px;
 }
 
 .react-calendar__tile {
-  padding: 10px 5px !important;
+	padding: 10px 5px !important;
 }
 
+.curve::after {
+	content: "";
+	position: absolute;
+	top: -50px;
+	left: 20px;
+	height: 50px;
+	width: 50px;
+	border-radius: 30%;
+	box-shadow: 10px 10px 0 0 #ddd;
+}
 
-.curve::after{
-  content: "";
-  position: absolute;
-  top: -50px;
-  left: 20px;
-  height: 50px;
-  width: 50px;
-  border-radius: 30%;
-  box-shadow: 10px 10px 0 0 #ddd;
+/* footer */
+.container {
+	max-width: 1170px;
+	margin: auto;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer {
+	background-color: #007fff;
+	padding: 50px 0 20px 0;
+}
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+.footer-col h4 {
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 25px;
+	margin-top: 10px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	/* bottom: -10px; */
+	height: 2px;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul img {
+	height: 20px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: 300;
+	display: block;
+	transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col a i {
+	margin-top: 15px;
+
+	margin-inline-end: 10px;
+}
+
+/* responsive */
+
+@media (max-width: 767px) {
+	.footer-col {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+}
+
+@media (max-width: 574px) {
+	.footer-col {
+		width: 100%;
+	}
 }

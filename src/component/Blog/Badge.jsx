@@ -1,6 +1,13 @@
 // eslint-disable-next-line react/prop-types
-export default function Badge ({ children }) { 
-    return <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-      {children}
+export default function Badge({tag,className=""}) {  
+  const { name, bg, textColor } = tag;
+  return (
+    <span
+    key={name}
+    className="px-3 py-1 text-sm rounded-full font-medium"
+    style={{ backgroundColor: bg, color: textColor }}
+    >
+      {name}
     </span>
-};
+  )
+}

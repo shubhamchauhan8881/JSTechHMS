@@ -1,7 +1,7 @@
 import React from "react";
 import Message from "./Message";
 import InputBox from "./InputBox";
-import img from "../../assets/DocImg2.png"
+import img from "../../assets/chatBG.png"
 import ChatHeader from "./ChatHeader";
 const ChatInterface = () => {
   const messages = [

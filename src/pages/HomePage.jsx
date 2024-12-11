@@ -1,13 +1,10 @@
-import C from "../component/C";
 import Footer from "../component/Footer";
-import Header from "../component/Header";
-
+import Hero from "../component/Hero";
+import C from "../component/C";
 export default function HomePage() {
 	return (
 		<>
-			<div className="hero min-h-screen rounded-3xl">
-				<Header />
-
+			<Hero header_variant="">
 				<div className="flex items-stretch px-10">
 					<div className="w-2/3">
 						<h1 className="font-bold text-7xl leading-tight">
@@ -78,7 +75,7 @@ export default function HomePage() {
 						</div>
 					</div>
 				</div>
-			</div>
+			</Hero>
 			<section className="px-10">
 				<div className="mt-40">
 					<h2 className="text-[55px] font-semibold leading-tight">

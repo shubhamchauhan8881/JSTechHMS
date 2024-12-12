@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hospital UI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+<!-- Features Section -->
+<section class="bg-white text-black py-10 px-4 sm:px-6 lg:px-10">
+  <div class="container mx-auto px-4">
+    <h2 class="text-black font-poppins text-[35px] sm:text-[45px] lg:text-[55px] font-semibold leading-[60px] sm:leading-[80px] lg:leading-[99px] text-left">
+      Your Health, <span class="text-blue-600">Our Priority</span>
+    </h2>
+    <p class="text-black font-afacad text-[20px] sm:text-[20px] lg:text-[25px] font-normal leading-normal text-left">
+      Exceptional Medical Services Tailored for You
+    </p>
+
+   <div class="flex flex-col sm:flex-row justify-center gap-6 sm:gap-10 mt-8">
+  <!-- Feature 1 -->
+  <div class="p-6 bg-blue-200 rounded-lg text-center relative h-72 w-full sm:w-80 lg:w-72 mb-6">
+    <h4 class="text-lg font-bold text-left">Instant Video Consultation</h4>
+    <p class="text-sm text-gray-600 mt-2 text-left">Connect with verified doctors.</p>
+    <img src="./assets/i9KYIumN 1.png" alt="Small Icon" class="absolute top-44 right-4 w-20 h-20 rounded-lg shadow-lg" />
+    <div class="absolute bottom-4 left-4 bg-black text-white rounded-full p-2">
+      <svg class="w-6 h-6 transform rotate-360" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Feature 2 -->
+  <div class="p-6 bg-blue-200 rounded-lg text-center relative h-72 w-full sm:w-80 lg:w-72 mb-6">
+    <h4 class="text-lg font-bold text-left">Find the doctors near you.</h4>
+    <p class="text-sm text-gray-600 mt-2 text-left">Confirmed Appointments.</p>
+    <img src="./assets/Remove background project 1.png" alt="Small Icon" class="absolute top-44 right-4 w-20 h-20 rounded-lg shadow-lg" />
+    <div class="absolute bottom-4 left-4 bg-black text-white rounded-full p-2">
+      <svg class="w-6 h-6 transform rotate-360" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Feature 3 -->
+  <div class="p-6 bg-blue-200 rounded-lg text-center relative h-72 w-full sm:w-80 lg:w-72 mb-6">
+    <h4 class="text-lg font-bold text-left">24/7 medicine.</h4>
+    <p class="text-sm text-gray-600 mt-2 text-left">Essentials at your doorstep.</p>
+    <img src="./assets/medicine-297778_1280 1.png" alt="Small Icon" class="absolute top-44 right-4 w-20 h-20 rounded-lg shadow-lg" />
+    <div class="absolute bottom-4 left-4 bg-black text-white rounded-full p-2">
+      <svg class="w-6 h-6 transform rotate-360" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<!-- WHY CHOOSE US Section -->
+<div class="p-6 text-center bg-white">
+  <h2 class="mb-4 text-left text-black text-xl sm:text-2xl md:text-3xl lg:text-4xl font-afacad font-semibold leading-normal">
+    <span class="text-[#0064E6]">WHY</span> CHOOSE US
+  </h2>
+  <p class="text-left text-gray-800 text-base sm:text-lg md:text-xl lg:text-2xl font-afacad font-semibold leading-[1.5] sm:max-w-md sm:mx-auto lg:max-w-full lg:break-normal">
+    <span class="text-[#0064E6] block sm:inline">
+      Choose us for personalized care and advanced treatments delivered by experienced professionals.
+    </span>
+    Your health and well-being are our top priority, every step of the way.
+  </p>
+</div>
+
+<!-- Doctors Section -->
+<section class="bg-white py-12 px-6">
+  <div class="container mx-auto flex flex-col lg:flex-row items-center gap-8">
+    <!-- Left Section: Doctor Image -->
+    <div class="w-full lg:w-1/2">
+      <div class="relative w-full lg:w-1/2 mt-4 left-0 sm:left-10 md:left-40 border-gray-800 shadow-2xl">
+        <img src="./assets/Doc.jpg" alt="Doctor" class="w-full h-64 sm:h-80 lg:h-96 object-cover rounded-lg shadow-lg" />
+        <div class="absolute bottom-0 left-0 sm:left-16 md:left-60 bg-blue-600 w-12 h-12 sm:w-20 sm:h-20 rounded-xl shadow-2xl"></div>
+      </div>
+    </div>
+    <!-- Right Section: Content -->
+    <div class="w-full lg:w-1/2 px-4">
+      <h3 class="text-[#0064E6] font-afacad text-[30px] sm:text-[40px] font-semibold leading-normal mb-2">
+        Our Doctors
+      </h3>
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+        Consultation with our <br /> professional doctors
+      </h2>
+      <p class="text-black text-base sm:text-sm md:text-base font-afacad font-semibold leading-normal sm:text-left mb-6">
+        Not to worry, our professional doctors are experienced in<br />
+        treating and serving the needs of patients. We have doctors<br />
+        from various specialties, so our patients will be facilitated in curing all diseases.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-6">
+        <div>
+          <h4 class="text-3xl font-bold text-gray-800">
+            10 <span class="text-blue-600">+</span>
+          </h4>
+          <span class="text-gray-600 text-base">years helping patients</span>
+        </div>
+        <div>
+          <h4 class="text-3xl font-bold text-gray-800">
+            100 <span class="text-blue-600">k</span>
+          </h4>
+          <span class="text-gray-600 text-base">patients served successfully</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<div class="py-16 px-6 bg-white">
+  <div class="mb-6">
+    <h1 class="text-black font-poppins text-[35px] sm:text-[40px] lg:text-[45px] font-semibold leading-normal">
+      Your Experience,
+      <span class="text-blue-600 block sm:inline">Our Commitment</span>
+    </h1>
+    <p class="text-black font-afacad text-lg sm:text-xl font-normal leading-normal">
+      Exceptional Care Designed Around You
+    </p>
+  </div>
+</div>
+
+<!-- Testimonial Section -->
+<div class="bg-gradient-to-r from-blue-100 via-blue-300 to-blue-600 rounded-lg shadow-lg p-6 sm:p-8">
+  <div class="flex flex-col items-start gap-6 sm:gap-8 md:flex-row md:items-start md:justify-between">
+    <div class="text-left mt-6 sm:mt-20">
+      <h2 class="text-2xl sm:text-3xl md:text-4xl font-normal text-black leading-snug mt-2">
+        What our patients <br /> say about us
+      </h2>
+    </div>
+    <div class="bg-white p-4 sm:p-0 rounded-xl shadow-md w-full max-w-sm sm:max-w-md md:max-w-lg sm:rounded-lg">
+      <div class="flex items-center gap-4">
+        <img src="./assets/Image.svg" alt="User" class="w-12 h-12 rounded-full" />
+        <div>
+          <h3 class="text-lg font-bold text-gray-800">Synthia Maxwell</h3>
+          <p class="text-sm text-gray-500">18 October</p>
+        </div>
+      </div>
+      <p class="text-gray-600 mt-4 text-sm sm:text-base">
+        Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus Loris Imus
+      </p>
+      <div class="flex items-center mt-4 space-x-1 text-yellow-400">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.187 3.67a1 1 0 00.95.69h3.862c.969 0 1.371 1.24.588 1.81l-3.126 2.293a1 1 0 00-.364 1.118l1.2 3.713c.3.928-.755 1.688-1.54 1.118l-3.173-2.329a1 1 0 00-1.175 0l-3.173 2.33c-.786.57-1.84-.19-1.54-1.118l1.2-3.712a1 1 0 00-.365-1.118l-3.125-2.292c-.784-.57-.38-1.81.588-1.81h3.863a1 1 0 00.95-.69l1.187-3.67z" />
+        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.187 3.67a1 1 0 00.95.69h3.862c.969 0 1.371 1.24.588 1.81l-3.126 2.293a1 1 0 00-.364 1.118l1.2 3.713c.3.928-.755 1.688-1.54 1.118l-3.173-2.329a1 1 0 00-1.175 0l-3.173 2.33c-.786.57-1.84-.19-1.54-1.118l1.2-3.712a1 1 0 00-.365-1.118l-3.125-2.292c-.784-.57-.38-1.81.588-1.81h3.863a1 1 0 00.95-.69l1.187-3.67z" />
+        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.187 3.67a1 1 0 00.95.69h3.862c.969 0 1.371 1.24.588 1.81l-3.126 2.293a1 1 0 00-.364 1.118l1.2 3.713c.3.928-.755 1.688-1.54 1.118l-3.173-2.329a1 1 0 00-1.175 0l-3.173 2.33c-.786.57-1.84-.19-1.54-1.118l1.2-3.712a1 1 0 00-.365-1.118l-3.125-2.292c-.784-.57-.38-1.81.588-1.81h3.863a1 1 0 00.95-.69l1.187-3.67z" />
+        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.187 3.67a1 1 0 00.95.69h3.862c.969 0 1.371 1.24.588 1.81l-3.126 2.293a1 1 0 00-.364 1.118l1.2 3.713c.3.928-.755 1.688-1.54 1.118l-3.173-2.329a1 1 0 00-1.175 0l-3.173 2.33c-.786.57-1.84-.19-1.54-1.118l1.2-3.712a1 1 0 00-.365-1.118l-3.125-2.292c-.784-.57-.38-1.81.588-1.81h3.863a1 1 0 00.95-.69l1.187-3.67z" />
+        </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="currentColor" viewBox="0 0 20 20">
+          <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.187 3.67a1 1 0 00.95.69h3.862c.969 0 1.371 1.24.588 1.81l-3.126 2.293a1 1 0 00-.364 1.118l1.2 3.713c.3.928-.755 1.688-1.54 1.118l-3.173-2.329a1 1 0 00-1.175 0l-3.173 2.33c-.786.57-1.84-.19-1.54-1.118l1.2-3.712a1 1 0 00-.365-1.118l-3.125-2.292c-.784-.57-.38-1.81.588-1.81h3.863a1 1 0 00.95-.69l1.187-3.67z" />
+        </svg>
+        <!-- Add 5 stars here -->
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>
